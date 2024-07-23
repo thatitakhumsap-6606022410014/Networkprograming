@@ -1,9 +1,9 @@
 import poplib
 from email.message import EmailMessage
 
-server = ''
-user = ""
-passwd = ""
+server = '127.0.0.1'
+user = "tharita"
+passwd = "0933577295"
 
 server = poplib.POP3(server)
 server.user(user)
